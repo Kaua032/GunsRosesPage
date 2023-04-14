@@ -22,17 +22,19 @@ h1{
     font-family: 'Corvinus Skyline ICG';
     font-style: normal;
     font-weight: 400;
-    font-size: 128px;
+    font-size: 5vw;
     line-height: 133px;
     color: #FCE63B;
     text-shadow: 2px 1px 0px #D9310B, 3px 2px 2px rgba(0, 0, 0, 0.6);
 }
 main{
     background: linear-gradient(180deg, #000000 45.31%, #0D0D0D 77.6%);
+    padding-bottom: 10rem;
 }
 #imgTransition{
     align-self: center;
     margin-top: 21.5rem;
+    width: 60%;
 }
 #part1{
     display: flex;
@@ -111,27 +113,24 @@ main{
     line-height: 23px;
     color: #707070;
 }
+audio{
+    background: transparent;
+}
+audio::-webkit-media-controls-enclosure{
+    background: transparent;
+}
 audio::-webkit-media-controls-panel{
     background-color: #1D2226; 
 }
 audio::-webkit-media-controls-current-time-display{
-    color: #fff;
     text-shadow: none;
 }
 audio::-webkit-media-controls-time-remaining-display{
-    color: #fff;
     text-shadow: none;
-}
-audio::-webkit-media-controls-play-button {
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-}
-audio::-webkit-media-controls {
-    color: #fff;
 }
 
 video{
-    width: 440px;
+    width: 100%;
 }
 #clips{
     display: flex;
@@ -144,17 +143,70 @@ video{
     justify-content: center;
 }
 .divClip{
+    display: flex;
+    flex-direction: column;
     height: 428px;
     width: 440px;
     background: #1e1e1e;
 }
 .divClipPart2{
     display: flex;
-    padding: 35px;
     align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto 0 auto 0;
+}
+.divClipPart2 a{
+    width: 17%;
+}
+.divClipPart2 a img{
+    width: 100%;
 }
 .divClipPart2 div{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 60%;
+}
+@media (max-width: 1300px){
+    #musics{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #part1{
+        font-size: 20px;
+    }
+}
+@media (max-width: 1150px){
+    #clips{
+        width: 100%;
+    }
+}
+@media (max-width: 700px){
+    .audioPart{
+        margin: 0;
+    }
+    .trackAudio{
+        width: 80%;
+        align-items: center;
+        gap: 20px;
+    }
+    audio{
+        width: 70%;
+    }
+    .title{
+        font-size: 4vw;
+    }
+    .description{
+        font-size: 2.5vw;
+    }
+    .divClipPart2 a{
+        width: 20%;
+    }
+}
+@media (max-width: 500px){
+    .divClip{
+        width: 80%;
+    }
 }
