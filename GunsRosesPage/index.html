@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Bandas</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0c0c0c;
+        }
+        .divBanda{
+            background: #1e1e1e;
+            text-decoration: none;
+            color: white;
+            padding-bottom: 15px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            width: 390px;
+        }
+        .divBanda div{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            font-family: 'Poppins';
+        }
+        .divBanda img{
+            border-radius: 15px 15px 0px 0px;
+            width: 100%;
+        }
+        #all{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 80%;
+            gap: 40px;
+        }
+        @media (max-width: 320px){
+            .divBanda{
+                width: 99%;
+                height: 350px;
+            }
+        }
+        @media (max-width: 430px){
+            .divBanda{
+                height: 440px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="all">
+        <a href="./gunsRoses/GunsORoses.html" class="divBanda">
+            <div>
+                <img src="./gunsRoses/img/yourillusion1.jpeg" alt="">
+                <div>
+                    <p>Kauã Xavier</p>
+                    <p>GUNS N' ROSES</p>
+                </div>
+            </div>
+        </a>
+        <a href="./ChaseAtlantic/ChaseAtlantic.html" class="divBanda">
+            <div>
+                <img src="./img/ChaseAtlantic.jpeg" alt="">
+                <div>
+                    <p>Irys</p>
+                    <p>Chase Atlantic</p>
+                </div>
+            </div>
+        </a>
+        <a href="./Projeto-Racionais-main/Racionais.html" class="divBanda">
+            <div>
+                <img src="./img/Racionais.jpeg" alt="">
+                <div>
+                    <p>Arthur Melo</p>
+                    <p>Racionais</p>
+                </div>
+            </div>
+        </a>
+    </div>
+
+</body>
+</html>
