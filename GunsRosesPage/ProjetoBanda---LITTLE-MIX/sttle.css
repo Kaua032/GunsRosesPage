@@ -1,0 +1,161 @@
+body {
+margin-top: auto;
+margin: 0 auto;
+margin-left: 0;
+margin-right: 0;
+background-color: #efefef;
+display: flex;
+flex-direction: column;
+}
+
+.imagem-container{
+    display: flex;
+    justify-content: center;
+    height: 880px;
+    
+}
+ 
+.img-1{
+    position: absolute;
+    margin-right: 0px;
+    width: 100vw;
+    height: 880px;
+}
+
+.img-2{
+    position: absolute;
+    top: 2rem;
+    width: 800px;
+    height: 77px;
+}
+
+.titulo-historia{
+    font-family: "Atami Semibold";
+    font-weight: bold;
+    font-size: 36px;
+    color: #8a5d4a;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caixa-de-texto{
+    width: 1083px;
+    height: 300px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 99px;
+    border-radius: 4px;
+}
+
+h1{
+    font-family: "Atami Semibold";
+    font-size: 24px;
+    margin-left: 46px;
+    margin-right: 45px;
+   padding-top: 27px;
+   color: #efefef;
+   margin-bottom: 30px;
+}
+
+.destaque-1{
+    color: rgb(231, 36, 36);
+}
+
+.destaque-2{
+    color: #D50941;
+}
+
+.destaque-3{
+    color: aquamarine;
+}
+
+.titulo-musica{
+    font-family: "Atami Semibold";
+    font-weight: bold;
+    font-size: 36px;
+    color: #8a5d4a;
+    text-align: center;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+
+.box-musica{
+    background-color: white;
+    width: 100%;
+    height: 389px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.button-1{
+height: 142px;
+border: none;
+border-radius: 5px;
+}
+
+.img-button-1{
+    width: 170px;
+    height: 142px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-position: left;
+   background-size: 30%;
+    /* align-items: flex-start; */
+    border-radius: 5px;
+}
+
+.button-2{
+height: 142px;
+border-radius: 5px;
+}
+
+.button-3{
+height: 142px;
+}
+
+.button-4{
+height: 142px;
+}
+
+.clipe-1 img{
+    width: 120rem;
+    height: 55rem;
+}
+
+.clipe-2 img{
+    width: 120rem;
+    height: 55rem;
+}
+
+.clipe-3 img{
+    width: 120rem;
+    height: 55rem;
+}
+
+.clipe-4 img{
+    width: 120rem;
+    height: 55rem;
+}
+
+
+
